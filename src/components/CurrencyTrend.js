@@ -40,7 +40,7 @@ const CurrencyTrend = ({ fromCurrency, toCurrency }) => {
       //API request
       try {
         const res = await fetch(
-          `https://api.exchangerate.host/timeframe?access_key=3d4740fd3ba81cf5c5fa917916059a3b&source=${fromCurrency}&currencies=${toCurrency}&start_date=${start}&end_date=${end}`
+          `https://api.exchangerate.host/timeframe?access_key=${process.env.REACT_APP_API_KEY}&source=${fromCurrency}&currencies=${toCurrency}&start_date=${start}&end_date=${end}`
         );
         const result = await res.json();
         if (result.success) {

@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🌍 汇率转换器（react版）
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+👋 你好，我是xxx，一名前端开发者，专注于 React 生态，擅长构建高效、可维护的前端应用。
+这个项目是我独立开发的货币汇率换算器web application，提供方便快捷的全球货币换算，并支持数据可视化。
 
-## Available Scripts
+## 📌 项目背景 & 目标
+随着跨境旅行和国际贸易的增长，全球对实时汇率查询的需求越来越大。本项目旨在：
 
-In the project directory, you can run:
+- ✅ 提供高效、直观的汇率换算工具，帮助用户随时掌握最新汇率。
+- 📊 按指定周期查看历史汇率变动趋势图，把握汇率变动情况
 
-### `npm start`
+我独立完成了需求分析，UI设计和前端开发，并使用第三方api请求汇率数据。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ 页面截图 & 使用方法
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1️⃣ **选择货币**：在输入框中选择 **原货币** 和 **目标货币**（支持全球 150+ 货币）  
+2️⃣ **输入金额**：输入需要换算的金额（实时计算）  
+3️⃣ **查看结果**：系统即时显示转换后的金额，并提供对应的 **历史汇率趋势图**  
+4️⃣ **数据可视化**：点击趋势图下方的按钮，自由选择查看最近 1 个月 / 3 个月 / 6个月 / 1 年的汇率变动图表  
 
-### `npm test`
+## 技术栈
+| 技术 | 说明 |
+|------|------|
+| ⚛️ React 18 | 前端框架 |
+| 🎨 Sass | UI 设计 |
+| 📊 Recharts | 图表构建 |
+| 🚀 CRA | 构建工具 |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 亮点 
+- **模块化架构**：组件化开发，降低代码耦合度，提高可复用性
+- **数据持久化**：利用 `localStorage` 记录用户偏好，提高用户体验
+- **智能缓存**：缓存历史汇率数据，避免重复请求，优化性能
 
-### `npm run build`
+## 🎬 线上demo
+👉 【点击这里体验】（url之后补充）
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 代码结构
+📂 src
+ ┣ 📂 components    # 复用组件（历史汇率趋势图）
+ ┣ 📂 pages         # 页面级组件（首页，货币选择器，换算结果）
+ ┣ 📜 App.js        # 入口文件
+ ┣ 📜 index.tsx     # 渲染根组件
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📬 联系方式
+- 📧 email：
+- 💼 linkedin：
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
