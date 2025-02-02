@@ -13,8 +13,11 @@
 
 ## 🛠️ 页面截图 & 使用方法
 
-![电脑端]<img src="https://github.com/user-attachments/assets/2bd1741f-b228-4bba-920b-9ea4067e05bc">
-![手机端]<img src="https://github.com/user-attachments/assets/3893ece1-44e0-4d0f-84cd-b7f23d6877cd" width="600">
+### 电脑端
+<img src="https://github.com/user-attachments/assets/2bd1741f-b228-4bba-920b-9ea4067e05bc">
+
+### 手机端
+<img src="https://github.com/user-attachments/assets/3893ece1-44e0-4d0f-84cd-b7f23d6877cd" width="400">
 
 1️⃣ **选择货币**：在输入框中选择 **原货币** 和 **目标货币**（支持全球 150+ 货币）  
 2️⃣ **输入金额**：输入需要换算的金额（实时计算）  
