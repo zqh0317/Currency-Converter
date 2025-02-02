@@ -22,7 +22,7 @@ useEffect(() => {
 useEffect(() => {
     const fetchCurrencies = async () => {
       try {
-        const res = await fetch(`https://api.exchangerate.host/list?access_key=3d4740fd3ba81cf5c5fa917916059a3b`);
+        const res = await fetch(`https://api.exchangerate.host/list?access_key=${process.env.REACT_APP_API_KEY}`);
         const data = await res.json();
         if (data.success) {
           setCurrencies(Object.keys(data.currencies));
