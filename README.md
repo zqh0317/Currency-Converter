@@ -63,9 +63,9 @@
  ┣ 📂 pages               # ページコンポーネント
     ┣ 📜 Converter.js     # ホーム画面、通貨選択、換算結果表示
     ┣ 📜 index.scss       # ホーム画面のスタイル
-┣ 📜 App.js               # エントリーファイル
-┣ 📜 index.js            　# ルートコンポーネントのレンダリング
-┣ 📜 .env.example        　# 環境変数のサンプル、exchangerate.host API キーを設定
+ ┣ 📜 App.js              # エントリーファイル
+ ┣ 📜 index.js            # ルートコンポーネントのレンダリング
+ ┣ 📜 .env.example        # 環境変数のサンプル、exchangerate.host API キーを設定
 ```
 
 ## 📬 連絡先
@@ -142,9 +142,9 @@ I independently completed the **requirement analysis, UI design, and frontend de
  ┣ 📂 pages               # Page-level components
     ┣ 📜 Converter.js     # Main page with currency selection and conversion results
     ┣ 📜 index.scss       # Styling for the main page
-┣ 📜 App.js              　# Entry file
-┣ 📜 index.js            　# Renders the root component
-┣ 📜 .env.example        　# Example environment file (API key for exchangerate.host required)
+ ┣ 📜 App.js              # Entry file
+ ┣ 📜 index.js            # Renders the root component
+ ┣ 📜 .env.example        # Example environment file (API key for exchangerate.host required)
 ```
 ## 📬 Contact
 - 🔗 GitHub: https://github.com/zqh0317?tab=repositories
@@ -218,9 +218,9 @@ I independently completed the **requirement analysis, UI design, and frontend de
  ┣ 📂 pages               # 页面级组件
     ┣ 📜 Converter.js     # 首页，货币选择器，换算结果
     ┣ 📜 index.scss       # 首页相关样式
-┣ 📜 App.js              　# 入口文件
-┣ 📜 index.js            　# 渲染根组件
-┣ 📜 .env.example        　# 环境变量示例，需配置exchangerate.host API密钥
+ ┣ 📜 App.js              # 入口文件
+ ┣ 📜 index.js            # 渲染根组件
+ ┣ 📜 .env.example        # 环境变量示例，需配置exchangerate.host API密钥
 ``` 
  ## 📬 联系方式
 - 🔗 GitHub: https://github.com/zqh0317?tab=repositories
