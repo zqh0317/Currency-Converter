@@ -33,11 +33,11 @@
 ## 🛠️ 技術スタック
 | 技術 | 説明 |
 |------|------|
-| ⚛️ React 18 | フロントエンドフレームワーク、コンポーネント開発による保守性向上 |
-| 🎨 Sass | UI 設計、変数・Mixin・モジュール化によりスタイルの再利用性を向上 |
-| 📊 Recharts | データの可視化、対話式折れ線グラフを使用して過去のレートを表示 |
-| 🚀 CRA | Create React App を使用して素早くプロジェクトを構築 |
-| 📈 exchangerate.host | 為替データを提供する外部 API |
+| React 18 | フロントエンドフレームワーク、コンポーネント開発による保守性向上 |
+| Sass | UI 設計、変数・Mixin・モジュール化によりスタイルの再利用性を向上 |
+| Recharts | データの可視化、対話式折れ線グラフを使用して過去のレートを表示 |
+| CRA | Create React App を使用して素早くプロジェクトを構築 |
+| exchangerate.host | 為替データを提供する外部 API |
 
 ## 💡 特徴
 ### モジュール化開発
@@ -110,11 +110,11 @@ I independently completed the **requirement analysis, UI design, and frontend de
 
 | Technology | Description |
 |------------|------------|
-| ⚛️ React 18 | Frontend framework for component-based development, enhancing maintainability |
-| 🎨 Sass | UI styling with variables, mixins, and modular design to improve reusability |
-| 📊 Recharts | Interactive line charts to visualize historical exchange rate trends |
-| 🚀 CRA | Create React App for fast project setup |
-| 📈 exchangerate.host | External API providing reliable and comprehensive exchange rate data |
+| React 18 | Frontend framework for component-based development, enhancing maintainability |
+| Sass | UI styling with variables, mixins, and modular design to improve reusability |
+| Recharts | Interactive line charts to visualize historical exchange rate trends |
+| CRA | Create React App for fast project setup |
+| exchangerate.host | External API providing reliable and comprehensive exchange rate data |
 
 ## 💡 Key Features  
 
@@ -187,11 +187,11 @@ I independently completed the **requirement analysis, UI design, and frontend de
 ## 技术栈
 | 技术 | 说明 |
 |------|------|
-| ⚛️ React 18 | 前端框架，组件化开发，提升可维护性 |
-| 🎨 Sass | UI设计，使用 变量、Mixin、模块化拆分 提高样式复用 |
-| 📊 Recharts | 图表可视化，交互式折线图，展示历史汇率趋势 |
-| 🚀 CRA | create react app，构建工具，快速搭建项目 |
-| 📈 exchangerate.host | 外部API，提供可靠、全面的汇率数据|
+| React 18 | 前端框架，组件化开发，提升可维护性 |
+| Sass | UI设计，使用 变量、Mixin、模块化拆分 提高样式复用 |
+| Recharts | 图表可视化，交互式折线图，展示历史汇率趋势 |
+| CRA | create react app，构建工具，快速搭建项目 |
+| exchangerate.host | 外部API，提供可靠、全面的汇率数据|
 
 
 ## 💡 亮点 
