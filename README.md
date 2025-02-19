@@ -1,5 +1,6 @@
 # 日本語の紹介 [English version follows after Japanese]　【中文版请拉至最后】  
-# クリックしてNext.jsとTypescriptのバージョンを閲覧(https://github.com/zqh0317/Currency-Converter-Next)
+# クリックしてNext.js & Typescriptのバージョンを閲覧(https://github.com/zqh0317/Currency-Converter-Next)
+# click the link above to view Next.js & Typescript version/点击上面的链接查看Next.js & Typescrtipt的版本
 ## 🌍 為替レート換算器（React版）
 
 👋 こんにちは、私は **鄭綺慧（ジェン・チフイ）** です。フロントエンド開発者として、React エコシステムに特化し、効率的で保守しやすいアプリケーションの構築を得意としています。
