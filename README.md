@@ -1,22 +1,22 @@
 # 日本語の紹介 [English version follows after Japanese]　【中文版请拉至最后】  
 # クリックしてNext.js & Typescriptのバージョンを閲覧(https://github.com/zqh0317/Currency-Converter-Next)
 # click the link above to view Next.js & Typescript version/点击上面的链接查看Next.js & Typescrtipt的版本
-## 🌍 為替レート換算器（React版）
+## 為替レート換算器（React版）
 
-👋 こんにちは、私は **鄭綺慧（ジェン・チフイ）** です。フロントエンド開発者として、React エコシステムに特化し、効率的で保守しやすいアプリケーションの構築を得意としています。
+こんにちは、私は **鄭綺慧（ジェン・チフイ）** です。フロントエンド開発者として、React エコシステムに特化し、効率的で保守しやすいアプリケーションの構築を得意としています。
 本プロジェクトは、**独自に開発した為替レート換算 Web アプリケーション** であり、**世界の通貨換算** に対応し、**過去の為替レートデータを可視化** することで、ユーザーがレートの傾向を直感的に理解できるようにしています。
 
-## 📌 プロジェクトの背景 & 目的
+## プロジェクトの背景 & 目的
 
 国際旅行や貿易の増加に伴い、多くのユーザーが **便利で正確なリアルタイム** 為替レートを必要としています。
 
 本プロジェクトの目的は以下の通りです：
-- ✅ **リアルタイム換算**：直感的で素早い為替レート変換を提供し、最新のレートを即座に確認可能。
-- 📊 **過去の為替レートの可視化**：指定期間のレート変動をグラフで表示し、トレンドを把握。
+- **リアルタイム換算**：直感的で素早い為替レート変換を提供し、最新のレートを即座に確認可能。
+- **過去の為替レートの可視化**：指定期間のレート変動をグラフで表示し、トレンドを把握。
 
 要件分析、UI 設計、フロントエンド開発を独自に行い、為替データの取得にはサードパーティ API を利用しました。
 
-## 🛠️ スクリーンショット & 使用方法
+## スクリーンショット & 使用方法
 
 ### PC 版
 <img src="https://github.com/user-attachments/assets/2bd1741f-b228-4bba-920b-9ea4067e05bc">
@@ -30,7 +30,7 @@
 3️⃣ **結果の確認**：変換結果が即時に表示され、**過去の為替レートトレンドグラフ** も提供  
 4️⃣ **データの可視化**：グラフ下のボタンをクリックすると、過去 **1 週間 / 1 か月 / 3 か月 / 6 か月 / 1 年** のレート変動を確認可能  
 
-## 🛠️ 技術スタック
+## 技術スタック
 | 技術 | 説明 |
 |------|------|
 | React 18 | フロントエンドフレームワーク、コンポーネント開発による保守性向上 |
@@ -39,7 +39,7 @@
 | CRA | Create React App を使用して素早くプロジェクトを構築 |
 | exchangerate.host | 為替データを提供する外部 API |
 
-## 💡 特徴
+## 特徴
 ### モジュール化開発
 - **コンポーネント分割**：すべての機能モジュールを独立化し、コードの結合度を低減し、再利用性を向上
 - **Sass プリプロセッサ**：**変数管理** を活用して UI スタイルを統一し、保守性を向上
@@ -56,7 +56,7 @@
 - **データの永続化**：`localStorage` を利用してユーザーの設定を保持し、利便性を向上
 - **スマートキャッシュ**：過去の為替レートデータをキャッシュし、不要なリクエストを削減してパフォーマンスを最適化
 
-## 📂 コード構成
+## コード構成
 ```bash
 📂 src
  ┣ 📂 components          # 再利用可能なコンポーネント
@@ -70,7 +70,7 @@
  ┣ 📜 .env.example        # 環境変数のサンプル、exchangerate.host API キーを設定
 ```
 
-## 📬 連絡先
+## 連絡先
 - 🔗 GitHub: https://github.com/zqh0317?tab=repositories
 - 📧 Email: zhengqihui0317@gmail.com
 - 💼 Linkedin: https://www.linkedin.com/in/qihui-zheng-ab2618275/
@@ -78,21 +78,21 @@
 
 
 # Enlish Version of Project Introduction
-# 🌍 Currency Converter (React Version)
+# Currency Converter (React Version)
 
-👋 Hi, I'm Qihui Zheng, a frontend developer specializing in the React ecosystem. I focus on building efficient and maintainable frontend applications.  
+Hi, I'm Qihui Zheng, a frontend developer specializing in the React ecosystem. I focus on building efficient and maintainable frontend applications.  
 This project is an **independently developed currency conversion web application** that supports **global currency exchange** and provides **historical exchange rate data visualization** to help users better understand currency trends.
 
-## 📌 Project Background & Goals  
+## Project Background & Goals  
 With the rise of cross-border travel and international trade, more users need **convenient and accurate real-time** exchange rate queries.
 
 This project's goals are:  
-- ✅ **Real-time currency conversion**: Provide an intuitive and fast exchange rate conversion experience, allowing users to stay updated with the latest rates.  
-- 📊 **Historical exchange rate visualization**: Display exchange rate trends over selected periods to help users track currency fluctuations.  
+- **Real-time currency conversion**: Provide an intuitive and fast exchange rate conversion experience, allowing users to stay updated with the latest rates.  
+- **Historical exchange rate visualization**: Display exchange rate trends over selected periods to help users track currency fluctuations.  
 
 I independently completed the **requirement analysis, UI design, and frontend development**, using a third-party API to fetch exchange rate data.
 
-## 🛠️ Screenshots & Usage  
+## Screenshots & Usage  
 
 ### Desktop Version  
 <img src="https://github.com/user-attachments/assets/2bd1741f-b228-4bba-920b-9ea4067e05bc">
@@ -106,7 +106,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
 3️⃣ **View Results**: The system instantly displays the converted amount and provides a **historical exchange rate trend chart**.  
 4️⃣ **Data Visualization**: Click the buttons below the trend chart to view exchange rate trends for the past **1 week / 1 month / 3 months / 6 months / 1 year**.  
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 | Technology | Description |
 |------------|------------|
@@ -116,7 +116,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
 | CRA | Create React App for fast project setup |
 | exchangerate.host | External API providing reliable and comprehensive exchange rate data |
 
-## 💡 Key Features  
+## Key Features  
 
 ### Modular Development  
 - **Componentization**: All functional modules are independently encapsulated, reducing code coupling and improving reusability.  
@@ -134,7 +134,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
 - **Data persistence**: Utilizes `localStorage` to save user preferences and improve user experience.  
 - **Intelligent caching**: Stores historical exchange rate data to prevent redundant requests and optimize performance.  
 
-## 📂 Project Structure  
+## Project Structure  
 
 ```bash
 📂 src
@@ -148,7 +148,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
  ┣ 📜 index.js            # Renders the root component
  ┣ 📜 .env.example        # Example environment file (API key for exchangerate.host required)
 ```
-## 📬 Contact
+## Contact
 - 🔗 GitHub: https://github.com/zqh0317?tab=repositories
 - 📧 Email: zhengqihui0317@gmail.com
 - 💼 Linkedin: https://www.linkedin.com/in/qihui-zheng-ab2618275/
@@ -156,21 +156,21 @@ I independently completed the **requirement analysis, UI design, and frontend de
 
 
 # 中文版项目简介
-# 🌍 汇率转换器（react版）
+# 汇率转换器（react版）
 
-👋 你好，我是郑绮慧，一名前端开发者，专注于 React 生态，擅长构建高效、可维护的前端应用。
+你好，我是郑绮慧，一名前端开发者，专注于 React 生态，擅长构建高效、可维护的前端应用。
 本项目是一个 **独立开发的汇率换算web application**，支持 **全球货币换算**，并提供 **历史汇率数据的可视化**，帮助用户更直观地了解汇率趋势。
 
-## 📌 项目背景 & 目标
+## 项目背景 & 目标
 随着跨境旅行和国际贸易的增长，越来越多的用户需要 **便捷、精准的实时**汇率查询。
 
 本项目的目标是：
-- ✅ 实时汇率换算：提供直观、快速的汇率转换体验，帮助用户随时掌握最新汇率。
-- 📊 历史汇率数据可视化：按指定周期查看历史汇率变动趋势图，把握汇率变动情况
+- 实时汇率换算：提供直观、快速的汇率转换体验，帮助用户随时掌握最新汇率。
+- 历史汇率数据可视化：按指定周期查看历史汇率变动趋势图，把握汇率变动情况
 
 我独立完成了需求分析，UI设计和前端开发，并使用第三方api请求汇率数据。
 
-## 🛠️ 页面截图 & 使用方法
+## 页面截图 & 使用方法
 
 ### 电脑端
 <img src="https://github.com/user-attachments/assets/2bd1741f-b228-4bba-920b-9ea4067e05bc">
@@ -194,7 +194,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
 | exchangerate.host | 外部API，提供可靠、全面的汇率数据|
 
 
-## 💡 亮点 
+## 亮点 
 ### 模块化开发
 - **组件拆分**：所有功能模块独立封装，降低代码耦合度，提高可复用性
 - **Sass预处理**：使用 **变量**管理样式，易于统一整体UI风格，同时提高样式可维护性
@@ -211,7 +211,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
 - **数据持久化**：利用 `localStorage` 记录用户偏好，提高用户体验
 - **智能缓存**：缓存历史汇率数据，避免重复请求，优化性能
 
-## 📂 代码结构
+## 代码结构
 ```bash
 📂 src
  ┣ 📂 components          # 可复用组件
@@ -224,7 +224,7 @@ I independently completed the **requirement analysis, UI design, and frontend de
  ┣ 📜 index.js            # 渲染根组件
  ┣ 📜 .env.example        # 环境变量示例，需配置exchangerate.host API密钥
 ``` 
- ## 📬 联系方式
+ ## 联系方式
 - 🔗 GitHub: https://github.com/zqh0317?tab=repositories
 - 📧 Email: zhengqihui0317@gmail.com
 - 💼 Linkedin: https://www.linkedin.com/in/qihui-zheng-ab2618275/
